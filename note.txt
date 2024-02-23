@@ -1,0 +1,19 @@
+pd.read_csv() parameters:index col: to identify that the row label is nb: 0
+the encoding:tried latin-1 and utf-8 but went for utf-8 as it is the most common used 
+for encoding in python(encoding asci codes and decode them)
+
+fields=[]
+for col in df.columns():
+    quarters=[]
+    temp=df[col]
+    print(temp)
+    max1=temp.max()
+    numb=max1/4
+    for k in range(4):
+        q=[]
+        for i,j in temp.iteritems():
+            if(j<=numb):
+                q.append(j)
+        quarters.append(q)
+    fields.append(quarters)
+9,352.75

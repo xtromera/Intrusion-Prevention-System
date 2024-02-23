@@ -1,0 +1,18 @@
+Field_Name,Distribution_Name,Info0,Info1,Info2,Info3
+received_packets,t,df=0.27, loc=3295.35, scale=3394.74,
+received_bytes,laplace_asymmetric,kappa=0.30, loc=14707489.00, scale=17877709.32,
+sent_bytes,laplace_asymmetric,kappa=0.16, loc=12639721.00, scale=9751036.23,
+sent_packets,beta,a=0.84, b=0.74, loc=118809.00, scale=302789.02
+port_alive_duration_s,vonmises_line,kappa=0.02, loc=1878.33, scale=376.14,
+delta_received_packets,mielke,k=0.61, s=1.00, loc=-0.00, scale=2.84
+delta_received_bytes,halfgennorm,beta=0.42, loc=-0.00, scale=1867.21,
+delta_sent_bytes,exponweib,a=1.20, c=0.69, loc=278.00, scale=81150.21
+delta_sent_packets,gennorm,beta=0.32, loc=4.00, scale=0.03,
+total_load/rate,dgamma,a=0.29, loc=0.00, scale=18257.87,
+total_load/latest,halfgennorm,beta=0.41, loc=-0.00, scale=4085.78,
+unknown_load/rate,dgamma,a=0.29, loc=0.00, scale=18257.87,
+unknown_load/latest,halfgennorm,beta=0.41, loc=-0.00, scale=4085.78,
+latest_bytes_counter,dgamma,a=0.29, loc=0.00, scale=18257.87,
+active_flow_entries,dgamma,a=0.45, loc=6.00, scale=1.51,
+packets_looked_up,foldcauchy,c=39.28, loc=75.73, scale=16670.64,
+packets_matched,foldcauchy,c=29.69, loc=100.30, scale=22109.53,

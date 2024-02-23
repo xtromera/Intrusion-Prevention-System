@@ -1,0 +1,18 @@
+Field_Name,Distribution_Name,Info0,Info1,Info2,Info3
+received_packets,skewcauchy,a=1.00, loc=9.00, scale=559.77,
+received_bytes,mielke,k=0.78, s=0.38, loc=-1338.40, scale=265815.21
+sent_bytes,mielke,k=0.83, s=0.39, loc=-1145.34, scale=202128.25
+sent_packets,halfcauchy,loc=41.00, scale=1191.35,,
+port_alive_duration_s,burr12,c=3.71, d=0.17, loc=-0.11, scale=89.24
+delta_received_packets,pearson3,skew=2.16, loc=89.66, scale=96.75,
+delta_received_bytes,exponweib,a=1.37, c=0.44, loc=-0.00, scale=16611.78
+delta_sent_bytes,exponweib,a=0.93, c=0.47, loc=278.00, scale=15811.02
+delta_sent_packets,pearson3,skew=2.28, loc=85.98, scale=95.62,
+total_load/rate,laplace_asymmetric,kappa=0.49, loc=-0.00, scale=12574.83,
+total_load/latest,halfgennorm,beta=0.46, loc=-0.00, scale=5669.48,
+unknown_load/rate,laplace_asymmetric,kappa=0.49, loc=-0.00, scale=12574.83,
+unknown_load/latest,halfgennorm,beta=0.46, loc=-0.00, scale=5669.48,
+latest_bytes_counter,laplace_asymmetric,kappa=0.49, loc=-0.00, scale=12574.83,
+active_flow_entries,wald,loc=-8.10, scale=46.03,,
+packets_looked_up,betaprime,a=2.96, b=0.54, loc=-1.77, scale=735.87
+packets_matched,betaprime,a=2.12, b=0.54, loc=-2.49, scale=1085.79

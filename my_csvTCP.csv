@@ -1,0 +1,18 @@
+Field_Name,Distribution_Name,Info0,Info1,Info2,Info3
+received_packets,norminvgauss,a=3.70, b=3.68, loc=-0.55, scale=84.84
+received_bytes,invgauss,mu=113.75, loc=-6530.23, scale=44891.84,
+sent_bytes,skewcauchy,a=1.00, loc=6728.00, scale=50886.89,
+sent_packets,levy,loc=40.14, scale=143.50,,
+port_alive_duration_s,rdist, loc=131.63, scale=131.90,,
+delta_received_packets,tukeylambda,lam=-2.43, loc=3.43, scale=0.34,
+delta_received_bytes,halfgennorm,beta=0.25, loc=-0.00, scale=14.52,
+delta_sent_bytes,beta,a=0.23, b=267.38, loc=278.00, scale=46404021.35
+delta_sent_packets,cauchy,loc=3.67, scale=1.94,,
+total_load/rate,gennorm,beta=0.28, loc=0.00, scale=2.63,
+total_load/latest,gilbrat,loc=-21234.54, scale=64199.18,,
+unknown_load/rate,gennorm,beta=0.28, loc=0.00, scale=2.63,
+unknown_load/latest,gilbrat,loc=-21234.54, scale=64199.18,,
+latest_bytes_counter,gennorm,beta=0.28, loc=0.00, scale=2.63,
+active_flow_entries,gennorm,beta=0.14, loc=6.00, scale=0.00,
+packets_looked_up,exponnorm,K=11.16, loc=458.13, scale=257.50,
+packets_matched,johnsonsb,a=1.55, b=0.90, loc=-30.98, scale=16546.45
